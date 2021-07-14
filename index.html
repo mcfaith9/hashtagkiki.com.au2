@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>hashtagkiki.com.au</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="assets/images/fav/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/countdowntime/flipclock.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<style type="text/css">
+		.overlay1::before {
+		    background: linear-gradient(-45deg, #ee7752, #607d8b, #17b3ea, #23d5ab);
+		    background-size: 400% 400%;
+		    animation: gradient 15s ease infinite;
+		}
+		@keyframes gradient {
+		    0% {
+		        background-position: 0% 50%;
+		    }
+		    50% {
+		        background-position: 100% 50%;
+		    }
+		    100% {
+		        background-position: 0% 50%;
+		    }
+		}
+
+		.ballon {
+			 margin: 0 auto;
+		     position: absolute;
+		     left: calc(28% + 1vw);
+		     /* top: calc(7em + 1vw); */
+		     transform: translateY(77%);
+		}
+		.ballon-inner {
+			animation: drift 5s ease-in-out infinite;
+			background-image: url('assets/images/hotairballon1.png');
+			background-size: cover;		
+		}
+		 .ballon-ball {
+			 height: 100px;
+			 width: 100px;
+			 position: relative;
+		}
+		 @keyframes drift {
+			 0% {
+				 transform: translateY(0px) rotate();
+			}
+			 50% {
+				 transform: translateY(-20px) rotate(-10deg);
+			}
+			 100% {
+				 transform: translateY(0px) rotate();
+			}
+		}
+		@media (max-width: 576px) {
+			.hide-container{
+				display: none;
+			}
+		}
+		.cd100{
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>	
+	<div class="bg-img1 size1 overlay1 p-t-24" style="background-image: url('https://images.unsplash.com/photo-1604156787150-ce07a9d1fd37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');">
+		<div class="container hide-container" style="position: absolute; z-index: -2;">
+		  <div class="ballon" style="top: calc(15em + 1vw); left: calc(19% + 1vw);">
+		    <div class="ballon-inner" style="width: 150px; height: 150px;">
+		      <div class="ballon-ball"></div>
+		    </div>		    
+		  </div>
+		  <div class="ballon" style="top: calc(-6em + 1vw);left: calc(97% + 1vw); animation-delay: 0.12s;">
+		  	<div class="ballon-inner" style="animation-delay: 2s;">
+		  	  <div class="ballon-ball" style="width: 250px; height: 250px;"></div>
+		  	</div>
+		  </div>
+		</div>		
+		<div class="flex-w flex-sb-m p-l-80 p-b-30 p-r-74 respon5">
+			<div class="wrappic1 m-t-10 m-b-10">
+				<h3 class="p-b-10 respon2">hashtagkiki.com.au</h3>
+				<!-- <a href="#"><img src="assets/images/brand.png" alt="LOGO"></a> -->
+			</div>
+
+			<div class="flex-w m-t-10 m-b-10">
+				<a href="#" class="size3 flex-c-m how-social trans-04 m-r-6">
+					<i class="fa fa-facebook"></i>
+				</a>
+
+				<a href="#" class="size3 flex-c-m how-social trans-04 m-r-6">
+					<i class="fa fa-twitter"></i>
+				</a>
+
+				<a href="#" class="size3 flex-c-m how-social trans-04 m-r-6">
+					<i class="fa fa-youtube-play"></i>
+				</a>
+			</div>
+		</div>
+
+		<div class="flex-w flex-sa p-r-300 respon1">
+			<div class="p-b-60 respon3 text-center">				
+				<div class="wrappic1 m-r-30 m-t-10 m-b-5">
+					<img src="assets/images/logo.png" alt="LOGO" width="300">
+				</div>
+				<p class="l1-txt1 respon2">
+					we're working on something awesome
+				</p>
+				<h3 class="l1-txt2 p-b-15 respon2 respon4">
+					Coming Soon
+				</h3>
+				<div class="text-center">
+					<div class="cd100"></div>
+				</div>
+			</div>
+
+			<!-- <div class="wsize1 bor1 p-l-45 p-r-45 p-t-50 p-b-18 p-lr-15-sm"></div> -->
+		</div>
+	</div>
+
+	<script src="assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/popper.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/select2/select2.min.js"></script>
+	<script src="assets/vendor/countdowntime/flipclock.min.js"></script>
+	<script src="assets/vendor/countdowntime/moment.min.js"></script>
+	<script src="assets/vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="assets/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="assets/vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 60,
+			endtimeHours: 18,
+			endtimeMinutes: 0,
+			endtimeSeconds: 10,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+
+		
+	</script>
+	<script src="assets/vendor/tilt/tilt.jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
